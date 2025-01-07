@@ -1,0 +1,11 @@
+# Ignore .pth files
+*.pth
+
+# Ignore instance folder
+instance/
+
+# Ignore .env file containing credentials
+.env
+
+# Ignore __pycache__ folder
+__pycache__/
