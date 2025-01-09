@@ -190,12 +190,4 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 - The app uses Flask and SQLite, so the app can be easily deployed on lightweight platforms such as Heroku or a similar environment.
 
 
----
-### Temporary - photos of ML process
-
-![obraz](https://github.com/user-attachments/assets/67e2541b-6dba-4088-bee4-74c110afc1d7)
-![obraz](https://github.com/user-attachments/assets/d07e1968-fd57-4d38-b0df-d60305480a27)
-![obraz](https://github.com/user-attachments/assets/11912310-44b5-477b-9e91-1783005989e9)
-![obraz](https://github.com/user-attachments/assets/7132cb86-381f-43f3-ac5b-7cb0c1f61c1c)
-
 
