@@ -188,3 +188,6 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 - Ensure the server has enough memory and GPU (if available) for running the model, as it uses PyTorch for inference.
 - The app uses Flask and SQLite, so the app can be easily deployed on lightweight platforms such as Heroku or a similar environment.
+
+
+
