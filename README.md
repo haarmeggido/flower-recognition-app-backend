@@ -77,7 +77,7 @@ flower-recognition-app-backend/
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/yourusername/flower-recognition-app-backend.git
+   git clone https://github.com/haarmeggido/flower-recognition-app-backend.git
    cd flower-recognition-app-backend
    ```
 
@@ -122,7 +122,7 @@ To run the app locally in development mode:
 python app.py
 ```
 
-For production mode, you can use a WSGI server like `waitress` (uncomment the `serve` line in `app.py`).
+For production mode, you can use a WSGI server like `waitress` (change the `mode` variable in `app.py`).
 
 ```bash
 # Install waitress

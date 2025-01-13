@@ -2,6 +2,8 @@ Flask==3.1.0
 Flask_Cors==5.0.0
 Pillow==11.1.0
 PyJWT==2.10.1
+python-dotenv==1.0.1
 python_bcrypt==0.3.2
 torch==2.2.0
 torchvision==0.17.0
+waitress==3.0.2

@@ -4,6 +4,7 @@ from routes.auth_routes import auth_blueprint
 from routes.predict_routes import predict_blueprint
 from routes.user_routes import user_blueprint
 from models.database import init_db
+from waitress import serve
 
 
 
@@ -24,9 +25,11 @@ init_db()
 
 
 if __name__ == "__main__":
-    # Development mode
-    app.run(host="0.0.0.0", port=8080)
+    mode = "dev"  # Change this to "prod" for production mode
 
-    # Production mode
-    # from waitress import serve
-    # serve(app, host="0.0.0.0", port=8080)
+    if mode == "dev":
+        # Development mode
+        app.run(host="0.0.0.0", port=8080)
+    elif mode == "prod":
+        # Production mode
+        serve(app, host="0.0.0.0", port=8080)
